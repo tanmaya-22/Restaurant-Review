@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Rating & Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>FoodCritic</h1>
+    <p>Rate • Review • Recommend</p>
+</header>
+
+<div class="container">
+
+    <!-- Restaurant Info -->
+    <section class="restaurant-card">
+        <h2>The Spice Route</h2>
+        <p>Cuisine: Indian | Location: Bengaluru</p>
+        <p class="rating">⭐ 4.5 / 5</p>
+    </section>
+
+    <!-- Review Form -->
+    <section class="review-form">
+        <h3>Write a Review</h3>
+
+        <input type="text" id="username" placeholder="Your Name">
+
+        <select id="stars">
+            <option value="">Select Rating</option>
+            <option value="5">★★★★★</option>
+            <option value="4">★★★★</option>
+            <option value="3">★★★</option>
+            <option value="2">★★</option>
+            <option value="1">★</option>
+        </select>
+
+        <textarea id="reviewText" placeholder="Share your experience..."></textarea>
+
+        <label>Upload Image / Video</label>
+        <input type="file" id="media" accept="image/*,video/*">
+
+        <button onclick="submitReview()">Submit Review</button>
+    </section>
+
+    <!-- Reviews Display -->
+    <section class="reviews">
+        <h3>Customer Reviews</h3>
+        <div id="reviewList"></div>
+    </section>
+
+    <!-- Owner Response -->
+    <section class="owner-panel">
+        <h3>Restaurant Owner Response</h3>
+        <textarea placeholder="Reply to customers..."></textarea>
+        <button>Post Reply</button>
+    </section>
+
+</div>
+
+<footer>
+    <p>© March 2024 | Restaurant Rating & Review System</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

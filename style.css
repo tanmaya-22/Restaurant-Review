@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background: #e63946;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.restaurant-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    font-size: 20px;
+    color: #ffb703;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.review-form button {
+    background: #1d3557;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.review span {
+    color: #ffb703;
+}
+
+.owner-panel textarea {
+    width: 100%;
+    height: 60px;
+}
+
+.owner-panel button {
+    background: #457b9d;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background: #1d3557;
+    color: white;
+    padding: 10px;
+}
